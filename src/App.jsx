@@ -6,6 +6,10 @@ import ProgressBar from "./components/ProgressBar/ProgressBar";
 import Container from "@mui/material/Container";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 
+
+// TODO: maybe break down drag and drop functionality to component called `DragDrop`
+// TODO: break the compression into other component or utility class called `ImageCompressor`
+
 function App() {
   const [compressedImages, setCompressedImages] = useState([]);
   const [imageSizes, setImageSizes] = useState([]);
